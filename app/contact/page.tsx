@@ -67,11 +67,11 @@ export default function ContactPage() {
             <h2 className="font-semibold text-plum-700">Direct Contact</h2>
             <p className="mt-2 text-sm text-slate-700">
               <a href="mailto:hello@sumasolutionstx.com" className="hover:text-plum-500">
-                hello@sumasolutionstx.com
+                melissa@sumasolutionstx.com
               </a>
               <br />
               <a href="tel:+15555550123" className="hover:text-plum-500">
-                (555) 555-0123
+                (346) 305-9344
               </a>
             </p>
           </div>
