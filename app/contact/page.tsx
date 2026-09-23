@@ -14,13 +14,13 @@ export default function ContactPage() {
           Sign up free at https://formspree.io
         */}
         <form
-          action="https://formspree.io/f/YOUR_FORM_ID"
+          action="https://formspree.io/f/mdekzbgg"
           method="POST"
           className="space-y-4"
         >
           <div>
             <label htmlFor="name" className="text-sm font-medium text-slate-700">
-              Name
+              First and Last name
             </label>
             <input
               id="name"
@@ -32,7 +32,7 @@ export default function ContactPage() {
           </div>
           <div>
             <label htmlFor="email" className="text-sm font-medium text-slate-700">
-              Email
+              Email to contact you
             </label>
             <input
               id="email"
@@ -44,7 +44,7 @@ export default function ContactPage() {
           </div>
           <div>
             <label htmlFor="message" className="text-sm font-medium text-slate-700">
-              Tell us about your business
+              Tell us about your businessl
             </label>
             <textarea
               id="message"
@@ -66,11 +66,11 @@ export default function ContactPage() {
           <div>
             <h2 className="font-semibold text-plum-700">Direct Contact</h2>
             <p className="mt-2 text-sm text-slate-700">
-              <a href="mailto:hello@sumasolutionstx.com" className="hover:text-plum-500">
+              <a href="mailto:melissa@sumasolutionstx.com" className="hover:text-plum-500">
                 melissa@sumasolutionstx.com
               </a>
               <br />
-              <a href="tel:+15555550123" className="hover:text-plum-500">
+              <a href="tel:+13463059344" className="hover:text-plum-500">
                 (346) 305-9344
               </a>
             </p>
