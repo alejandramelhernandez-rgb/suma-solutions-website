@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -9,7 +10,6 @@ export const metadata: Metadata = {
 };
 
 const navLinks = [
-  { href: "/", label: "Home" },
   { href: "/services", label: "Services & Pricing" },
   { href: "/how-it-works", label: "How It Works" },
   { href: "/contact", label: "Consultation" },
@@ -25,8 +25,13 @@ export default function RootLayout({
       <body className="flex min-h-screen flex-col bg-cream-50">
         <header className="border-b border-cream-200 bg-cream-50">
           <nav className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-6 py-5">
-            <Link href="/" className="text-xl font-bold tracking-tight text-plum-900">
-              Suma Solutions
+            <Link href="/">
+              <Image
+                src="/logo.jpg"
+                alt="Suma Solutions logo"
+                width={160}
+                height={50}
+              />
             </Link>
             <ul className="flex flex-wrap gap-6 text-sm font-medium text-slate-700">
               {navLinks.map((link) => (
