@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="flex min-h-screen flex-col bg-cream-50">
-        <header className="border-b border-cream-200 bg-cream-50">
+        <header className="border-b border-cream-200 bg-[#4A5A63]">
           <nav className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-6 py-5">
             <Link href="/">
               <Image
@@ -33,7 +33,7 @@ export default function RootLayout({
                 height={50}
               />
             </Link>
-            <ul className="flex flex-wrap gap-6 text-sm font-medium text-slate-700">
+            <ul className="flex flex-wrap gap-6 text-sm font-medium text-slate-100">
               {navLinks.map((link) => (
                 <li key={link.href}>
                   <Link
