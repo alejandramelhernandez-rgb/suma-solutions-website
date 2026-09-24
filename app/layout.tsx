@@ -27,7 +27,7 @@ export default function RootLayout({
           <nav className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-6 py-5">
             <Link href="/">
               <Image
-                src="/logo.jpg"
+                src="/logo.png"
                 alt="Suma Solutions logo"
                 width={160}
                 height={50}
