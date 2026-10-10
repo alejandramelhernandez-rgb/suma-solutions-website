@@ -36,24 +36,12 @@ const services = [
     href: "/services#catch-ups",
     description:
       "Build your books from scratch or fix the ones you have, including a full yearly catch-up.",
-    from: lowest([...catchUps, ...cleanUps, ...yearlyCatchUp]),
-    unit: "per project",
   },
   {
     name: "Financial Literacy & Software Training",
     href: "/services#training",
     description:
       "Beginner-friendly training and QuickBooks Online or Xero set-up, in English and Spanish.",
-    from: lowest(training),
-    unit: "per session",
-  },
-  {
-    name: "Add-Ons",
-    href: "/services#add-ons",
-    description:
-      "Payroll entries, retail tracking, reports, and more, plus rush options.",
-    from: lowest([...addOnsMonthly, ...addOnsSetup, ...addOnsReports]),
-    unit: "and up",
   },
 ];
 
@@ -94,8 +82,8 @@ export default function HomePage() {
           <span className="text-plum-700"> handled with care.</span>
         </h1>
         <p className="mx-auto mt-6 max-w-xl text-lg text-slate-700">
-          SUMA Solutions helps salons, clinics, small businesses, and start-ups
-          in Houston, TX, and remotely, keep clean, tax-ready books.
+          Elevating small businesses and start ups with neat books and reliable business support 🤍 
+          Accepting new clients | Let's get connected! ☀️
           <span className="mt-1 block">Se habla español.</span>
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
@@ -118,9 +106,8 @@ export default function HomePage() {
         <div className="mx-auto max-w-6xl px-6">
           <h2 className="text-3xl font-bold text-slate-900">Services</h2>
           <p className="mt-3 max-w-2xl text-slate-700">
-            Straightforward support for the numbers behind your business. All
-            prices are starting prices and depend on your business, bank
-            accounts, and transactions.
+            Straightforward support for the numbers behind your business! All prices are subject to business sizes and needs
+            Get in contact to best estimate a price for you.
           </p>
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {services.map((service) => (
@@ -152,7 +139,7 @@ export default function HomePage() {
               href="/services"
               className="text-sm font-semibold text-plum-700 underline hover:text-plum-900"
             >
-              See all services, add-ons, and discounts
+              | See all services here |
             </Link>
           </div>
         </div>
@@ -161,10 +148,10 @@ export default function HomePage() {
       <section className="bg-slate-900 py-16">
         <div className="mx-auto max-w-4xl px-6">
           <h2 className="text-center text-sm font-semibold uppercase tracking-widest text-plum-300">
-            After You Become a Client
+            The beginning of our journe, after you become a client...
           </h2>
           <p className="mt-3 text-center text-2xl font-bold text-cream-50">
-            What happens next
+            Here's What happens next
           </p>
           <ol className="mt-10 space-y-5">
             {nextSteps.map((step, i) => (
