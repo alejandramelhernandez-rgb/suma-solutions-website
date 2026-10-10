@@ -28,7 +28,7 @@ export default function ConsultationPage() {
             follow up to confirm your consultation.
           </p>
           <a
-            href={LINKTREE_FORM_URL}
+            href={https://linktr.ee/SUMASolutions#604310311}
             target="_blank"
             rel="noreferrer"
             className="mt-5 inline-block rounded-full bg-plum-700 px-6 py-3 text-center text-sm font-semibold text-cream-50 hover:bg-plum-900"
@@ -46,7 +46,7 @@ export default function ConsultationPage() {
             your appointment time.
           </p>
           <a
-            href={GOOGLE_MEET_URL}
+            href={https://calendar.app.google/pDahw1pSDjd8hZWh7}
             target="_blank"
             rel="noreferrer"
             className="mt-5 inline-block rounded-full border border-plum-700 px-6 py-3 text-center text-sm font-semibold text-plum-700 hover:bg-plum-50"
