@@ -123,14 +123,17 @@ export default function HomePage() {
                   {service.description}
                 </p>
                 <p className="mt-4 text-sm text-slate-700">
-                  <span className="text-xs font-semibold uppercase tracking-wide text-slate-500">
-                    Starting at
-                  </span>{" "}
-                  <span className="text-xl font-bold text-plum-700">
-                    ${service.from.toLocaleString("en-US")}
-                  </span>{" "}
-                  <span className="text-xs text-slate-500">{service.unit}</span>
-                </p>
+                                  {service.from !== undefined && (
+                  <p className="mt-4 text-sm text-slate-700">
+                    <span className="text-xs font-semibold uppercase tracking-wide text-slate-500">
+                      Starting at
+                    </span>{" "}
+                    <span className="text-xl font-bold text-plum-700">
+                      ${service.from.toLocaleString("en-US")}
+                    </span>{" "}
+                    <span className="text-xs text-slate-500">{service.unit}</span>
+                  </p>
+                )}
               </Link>
             ))}
           </div>
