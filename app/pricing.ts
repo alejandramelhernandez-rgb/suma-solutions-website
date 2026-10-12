@@ -1,8 +1,9 @@
 // ============================================================
 // SUMA Solutions pricing. This is the ONE place to change prices.
-// Every "startingAt" number below comes from the "Price at target
-// rate" column of SUMA_Services_Pricelist_Expanded.xlsx (rounded to
-// the nearest dollar). The website shows each one as "Starting at $X".
+// The "startingAt" numbers below started from the "Price at target
+// rate" column of SUMA_Services_Pricelist_Expanded.xlsx. The monthly
+// bundle ($250) and yearly catch-up ($4,500) were then set by hand.
+// The website shows each one as "Starting at $X".
 // To change a price, edit the number after startingAt and commit.
 // ============================================================
 
@@ -18,7 +19,7 @@ export type PriceItem = {
 export const monthlyBundles: PriceItem[] = [
   {
     name: "Monthly Bundle ML1",
-    startingAt: 300,
+    startingAt: 250,
     unit: "per month",
     bestFor: "Solo stylists, booth renters and small clinics: up to ~75 transactions/month, up to 2 accounts, 1 payment platform, no payroll",
     includes: [
@@ -86,7 +87,7 @@ export const quarterlyBundles: PriceItem[] = [
 export const yearlyCatchUp: PriceItem[] = [
   {
     name: "Yearly Catch-Up",
-    startingAt: 6000,
+    startingAt: 4500,
     unit: "one-time project",
     bestFor: "Clients who need a full year of books, often before a loan application or a tax professional's deadline",
     includes: [
