@@ -122,7 +122,6 @@ export default function HomePage() {
                 <p className="mt-2 flex-1 text-sm text-slate-700">
                   {service.description}
                 </p>
-                <p className="mt-4 text-sm text-slate-700">
                                   {service.from !== undefined && (
                   <p className="mt-4 text-sm text-slate-700">
                     <span className="text-xs font-semibold uppercase tracking-wide text-slate-500">
@@ -151,7 +150,7 @@ export default function HomePage() {
       <section className="bg-slate-900 py-16">
         <div className="mx-auto max-w-4xl px-6">
           <h2 className="text-center text-sm font-semibold uppercase tracking-widest text-plum-300">
-            The beginning of our journe, after you become a client...
+            The beginning of our journey, after you become a client...
           </h2>
           <p className="mt-3 text-center text-2xl font-bold text-cream-50">
             Here's What happens next
